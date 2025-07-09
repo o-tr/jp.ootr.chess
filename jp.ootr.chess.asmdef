@@ -1,0 +1,19 @@
+{
+  "name": "jp.ootr.chess",
+  "references": [
+    "UdonSharp.Runtime",
+    "VRC.Udon",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI",
+    "jp.ootr.common"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
