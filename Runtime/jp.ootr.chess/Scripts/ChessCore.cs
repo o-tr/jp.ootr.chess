@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Text;
 using jp.ootr.common;
-using UdonSharp;
 using UnityEngine;
 
 namespace jp.ootr.chess
