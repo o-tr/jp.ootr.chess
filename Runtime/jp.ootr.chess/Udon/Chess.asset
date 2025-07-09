@@ -20,7 +20,7 @@ MonoBehaviour:
   compiledVersion: 2
   behaviourSyncMode: 4
   hasInteractEvent: 0
-  scriptID: 541595626229764222
+  scriptID: 815448271418279349
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
@@ -781,7 +781,7 @@ MonoBehaviour:
       Data: 51|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: ChessGame.Player, Assembly-CSharp
+      Data: jp.ootr.chess.Player, jp.ootr.chess
     - Name: 
       Entry: 8
       Data: 
@@ -937,7 +937,7 @@ MonoBehaviour:
       Data: 59|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: ChessGame.BoardData, Assembly-CSharp
+      Data: jp.ootr.chess.BoardData, jp.ootr.chess
     - Name: 
       Entry: 8
       Data: 
@@ -997,7 +997,7 @@ MonoBehaviour:
       Data: 63|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: ChessGame.Position, Assembly-CSharp
+      Data: jp.ootr.chess.Position, jp.ootr.chess
     - Name: 
       Entry: 8
       Data: 
@@ -1051,7 +1051,7 @@ MonoBehaviour:
       Data: 66|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: ChessGame.GameState, Assembly-CSharp
+      Data: jp.ootr.chess.GameState, jp.ootr.chess
     - Name: 
       Entry: 8
       Data: 
