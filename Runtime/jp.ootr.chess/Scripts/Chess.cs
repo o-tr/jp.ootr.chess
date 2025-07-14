@@ -15,22 +15,27 @@ namespace jp.ootr.chess
         
         public void Start()
         {
-            ResetAndInitialize();
+            Startup();
         }
 
-        public void ResetAndInitialize()
+        private void Startup()
         {
             if (board0 == 0 && board1 == 0 && board2 == 0 && board3 == 0)
             {
-                Initialize();
-                UpdateBoardCells();
-                UpdateBoardSelection();
-                UpdateStatusText();
+                ResetAndInitialize();
             }
             else
             {
                 _OnDeserialization();
             }
+        }
+
+        public void ResetAndInitialize()
+        {
+            Initialize();
+            UpdateBoardCells();
+            UpdateBoardSelection();
+            UpdateStatusText();
         }
 
         public override MoveResult MakeMove(string fromPos, string toPos, PromotionPiece promotionPiece)
